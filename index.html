@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Tool</title>
+    <link rel="stylesheet" href="stylesss.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Project Management Tool</h1>
+        </header>
+        <main>
+            <section class="users">
+                <h2>Users</h2>
+                <ul id="userList">
+                    <!-- User list will be dynamically populated -->
+                </ul>
+            </section>
+            <section class="tasks">
+                <h2>Tasks</h2>
+                <div>
+                    <input type="text" id="taskInput" placeholder="Enter a new task">
+                    <button id="addTaskBtn">Add Task</button>
+                </div>
+                <ul id="taskList">
+                    <!-- Task list will be dynamically populated -->
+                </ul>
+            </section>
+            <section class="messages">
+                <h2>Messages</h2>
+                <div id="messageList">
+                    <!-- Message list will be dynamically populated -->
+                </div>
+                <input type="text" id="messageInput" placeholder="Enter a message">
+                <button id="sendMessageBtn">Send</button>
+            </section>
+        </main>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
